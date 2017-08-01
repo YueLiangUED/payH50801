@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />  
+    <meta name="apple-mobile-web-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" /> 
+    <meta name="format-detection" content="email=no" />
+    <link rel="stylesheet" type="text/css" href="css/reset.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>在线支付</title>
+    <script>
+    ;(function (global) {
+        function remChange(){
+            document.documentElement.style.fontSize=20*document.documentElement.clientWidth/750+'px';
+        }
+        remChange();
+        global.addEventListener('resize',remChange,false);
+    })(window);
+    </script>
+</head>
+<body style="visibility:hidden;">
+    <!-- 页面html代码开始 -->
+    <div class="pay-wrap">
+        <div class="pay-result-box">
+            <img class="pay-suc-img" src="images/icon_01.jpg" alt="">
+            <p class="pay-suc-text">支付成功！</p>
+            <p class="pay-suc-tip">您已支付成功，号卡很快就会到小主的身边了~</p>
+            <div class="pay-dashed"></div>
+            <div class="pay-btns">
+                <a class="pay-btn" href="">查看订单</a>
+                <a class="pay-btn blue" href="">返回首页</a>
+            </div>
+        </div>
+        <div class="hot-recommend">
+            <div class="hot-recommend-title">
+                <img src="images/hot-title.jpg" alt="">
+            </div>
+            <div class="hot-recommend-content">
+                <a href="">
+                    <div class="recommend-img-box">
+                        <img src="images/icon_02.jpg" alt="">
+                    </div>
+                    <div class="recommend-text-box">
+                        <p class="recommend-title">任我享</p>
+                        <p class="recommend-jieshao">“60元6GB全国流量” 半年包，有效期6个月。</p>
+                        <p class="recommend-price"><span class="fh">￥</span>60/月</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="recommend-img-box">
+                        <img src="images/icon_02.jpg" alt="">
+                    </div>
+                    <div class="recommend-text-box">
+                        <p class="recommend-title">任我享</p>
+                        <p class="recommend-jieshao">“60元6GB全国流量” 半年包，有效期6个月。</p>
+                        <p class="recommend-price"><span class="fh">￥</span>60/月</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="recommend-img-box">
+                        <img src="images/icon_02.jpg" alt="">
+                    </div>
+                    <div class="recommend-text-box">
+                        <p class="recommend-title">任我享</p>
+                        <p class="recommend-jieshao">“60元6GB全国流量” 半年包，有效期6个月。</p>
+                        <p class="recommend-price"><span class="fh">￥</span>60/月</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="recommend-img-box">
+                        <img src="images/icon_02.jpg" alt="">
+                    </div>
+                    <div class="recommend-text-box">
+                        <p class="recommend-title">任我享</p>
+                        <p class="recommend-jieshao">“60元6GB全国流量” 半年包，有效期6个月。</p>
+                        <p class="recommend-price"><span class="fh">￥</span>60/月</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 页面html代码结束 -->
+    <script type="text/javascript">setTimeout(function () {document.getElementsByTagName('body')[0].style.visibility='visible';},100)</script>
+</body>
+</html>
